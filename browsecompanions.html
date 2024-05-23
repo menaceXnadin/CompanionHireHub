@@ -1,0 +1,578 @@
+<!--Default html-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Browse Companions</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <link rel="icon" type="image/x-icon" href="favicon.ico" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Concert+One&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@900&family=Pacifico&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rowdies:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Paytone+One&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body >
+    <nav>
+      <div class="first-row">
+        <a href="index.html"
+          ><div class="nav-logo-text">
+            <h3 id="nav-text1">Companion</h3>
+            <h4 id="nav-text2">Hire Hub</h4>
+          </div></a
+        >
+        <div class="nav-search">
+          <input type="text" placeholder="Type to search..." />
+          <button type="submit"><i class="fas fa-search"></i></button>
+        </div>
+        <div id="user-login">
+          <i class="fa-solid fa-circle-user" style="font-size: 2.5em"></i>
+          <div id="dropdown-content">
+            <a href="login.html">
+              <span class="material-symbols-outlined"> person </span>
+              Login</a
+            >
+            <a href="signup.html"> Sign Up</a>
+          </div>
+        </div>
+      </div>
+      <div class="second-row">
+        <a class="resnavhid" href="index.html">Home</a>
+        <a class="resnavhid" href="browsecompanions.html">Browse Companions</a>
+        <a class="resnavhid" href="howitworks.html">How it works?</a>
+        <a class="resnavhid" href="contactus.html">Contact Us</a>
+        <div
+          class="resnavhid join-now"
+          onclick="window.location.href='joinus.html'"
+        >
+          Join us
+          <i class="fa-solid fa-right-to-bracket" style="color: #ffffff"></i>
+        </div>
+        <div class="nav-menu-btn">
+          <div class="resnavlogo" onclick="window.location.href='index.html'">
+            <h3>Companion</h3>
+            <h4>Hire Hub</h4>
+          </div>
+          <i class="fa-solid fa-bars menu-btn" style="color: #ffffff"></i>
+        </div>
+      </div>
+    </nav>
+    <h1 id="browse-header">Browse Companions</h1>
+    <hr style="border: 2px solid #7439f1; opacity: 1" />
+
+    <div class="browse_container">
+      <div
+        onclick="window.location.href='profile1.html'"
+        class="browsepep-info"
+      >
+        <img src="starimg/star2.jpg" />
+        <div class="pepdesc">
+          <div class="cost-of-star">12.99$</div>
+          <div class="starrating">
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+          </div>
+          <div class="name">Name:Abhishek Subedi</div>
+
+          <div class="name">Age:19</div>
+
+          <!-- <div class="name">Gender:Male</div> -->
+          <span class="name">Availability:11 am-2pm</span>
+          <div class="name">Profession:Student</div>
+          <div class="name">
+            Languages:
+            <span class="badge small-badge text-bg-primary">Nepali</span>
+            <span class="badge small-badge text-bg-secondary">english</span>
+            <span class="badge small-badge text-bg-info">Hindi</span>
+            <!-- <button type="button" class="btn btn-primary">Book Now</button> -->
+          </div>
+          <div class="name">
+            Departure area:
+            <span class="badge small-badge text-bg-primary">KTM</span>
+            <span class="badge small-badge text-bg-warning">BKT</span>
+            <span class="badge small-badge text-bg-info">Lalitpur</span>
+          </div>
+          <div class="name">
+            Interest:
+            <span class="badge small-badge text-bg-primary">Gaming</span>
+            <span class="badge small-badge text-bg-warning">Basketball</span>
+            <!-- <span class="badge small-badge text-bg-info">Lalitpur</span> -->
+          </div>
+        </div>
+      </div>
+      <!-- Profile 2 -->
+      <div
+        onclick="window.location.href='profile3.html'"
+        class="browsepep-info"
+      >
+        <img src="starimg/star4.jpg" />
+        <div class="pepdesc">
+          <div class="cost-of-star">13.99$</div>
+          <div class="starrating">
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+            <span class="fa fa-star"></span>
+            <span class="fa fa-star"></span>
+          </div>
+          <div class="name">Name: Laxman Pokharel</div>
+
+          <div class="name">Age: 35</div>
+
+          <!-- <div class="name">Gender: Male</div> -->
+          <span class="name">Availability: 10 am - 4 pm</span>
+          <div class="name">Profession: Chef</div>
+          <div class="name">
+            Languages:
+            <span class="badge small-badge text-bg-primary">Nepali</span>
+            <span class="badge small-badge text-bg-secondary">English</span>
+          </div>
+          <div class="name">
+            Departure area:
+            <span class="badge small-badge text-bg-primary">Kathmandu</span>
+            <span class="badge small-badge text-bg-warning">Bhaktapur</span>
+            <span class="badge small-badge text-bg-info">Lalitpur</span>
+          </div>
+          <div class="name">
+            Interest:
+            <span class="badge small-badge text-bg-primary">Cooking</span>
+            <span class="badge small-badge text-bg-warning"
+              >Cultural Exchange</span
+            >
+          </div>
+        </div>
+      </div>
+      <!-- Profile 3 -->
+      <div
+        onclick="window.location.href='profile7.html'"
+        class="browsepep-info"
+      >
+        <img src="starimg/noimage.png" />
+        <div class="pepdesc">
+          <div class="cost-of-star">15.00$</div>
+          <div class="starrating">
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+            <span class="fa fa-star"></span>
+          </div>
+          <div class="name">Name: Ramesh Karki</div>
+
+          <div class="name">Age: 34</div>
+
+          <!-- <div class="name">Gender: Male</div> -->
+          <span class="name">Availability: 8 am - 6 pm</span>
+          <div class="name">Profession: Mountaineering Instructor</div>
+          <div class="name">
+            Languages:
+            <span class="badge small-badge text-bg-primary">Nepali</span>
+            <span class="badge small-badge text-bg-secondary">English</span>
+          </div>
+          <div class="name">
+            Departure area:
+            <span class="badge small-badge text-bg-primary">Kathmandu</span>
+            <span class="badge small-badge text-bg-warning">Lukla</span>
+            <span class="badge small-badge text-bg-info">Namche Bazaar</span>
+          </div>
+          <div class="name">
+            Interest:
+            <span class="badge small-badge text-bg-primary"
+              >Mountaineering</span
+            >
+            <span class="badge small-badge text-bg-warning">Rock Climbing</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- profile3? -->
+      <!-- Profile 11 -->
+      <div
+        onclick="window.location.href='profile5.html'"
+        class="browsepep-info"
+      >
+        <img src="starimg/noimage.png" />
+        <div class="pepdesc">
+          <div class="cost-of-star">17.12$</div>
+          <div class="starrating">
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+            <span class="fa fa-star"></span>
+          </div>
+          <div class="name">Name: Binod Tamang</div>
+
+          <div class="name">Age: 32</div>
+
+          <!-- <div class="name">Gender: Male</div> -->
+          <span class="name">Availability: 7 am - 5 pm</span>
+          <div class="name">Profession: Mountain Guide</div>
+          <div class="name">
+            Languages:
+            <span class="badge small-badge text-bg-primary">Nepali</span>
+            <span class="badge small-badge text-bg-secondary">English</span>
+            <span class="badge small-badge text-bg-info">Tibetan</span>
+          </div>
+          <div class="name">
+            Departure area:
+            <span class="badge small-badge text-bg-primary">Kathmandu</span>
+            <span class="badge small-badge text-bg-warning">Namche Bazaar</span>
+            <span class="badge small-badge text-bg-info">Lukla</span>
+          </div>
+          <div class="name">
+            Interest:
+            <span class="badge small-badge text-bg-primary"
+              >Mountaineering</span
+            >
+            <span class="badge small-badge text-bg-warning">Trekking</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Profile 12 -->
+      <div
+        onclick="window.location.href='profile6.html'"
+        class="browsepep-info"
+      >
+        <img src="starimg/noimage.png" />
+        <div class="pepdesc">
+          <div class="cost-of-star">18.00$</div>
+          <div class="starrating">
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+            <span class="fa fa-star"></span>
+          </div>
+          <div class="name">Name: Sunita Thapa</div>
+
+          <div class="name">Age: 26</div>
+
+          <!-- <div class="name">Gender: Female</div> -->
+          <span class="name">Availability: 9 am - 7 pm</span>
+          <div class="name">Profession: Tour Guide</div>
+          <div class="name">
+            Languages:
+            <span class="badge small-badge text-bg-primary">Nepali</span>
+            <span class="badge small-badge text-bg-secondary">English</span>
+            <span class="badge small-badge text-bg-info">French</span>
+          </div>
+          <div class="name">
+            Departure area:
+            <span class="badge small-badge text-bg-primary">Kathmandu</span>
+            <span class="badge small-badge text-bg-warning">Pokhara</span>
+            <span class="badge small-badge text-bg-info">Chitwan</span>
+          </div>
+          <div class="name">
+            Interest:
+            <span class="badge small-badge text-bg-primary"
+              >Cultural Tours</span
+            >
+            <span class="badge small-badge text-bg-warning"
+              >Adventure Sports</span
+            >
+          </div>
+        </div>
+      </div>
+
+      <!-- profile 5 -->
+      <!-- Profile 10 -->
+      <div
+        onclick="window.location.href='profile4.html'"
+        class="browsepep-info"
+      >
+        <img src="starimg/star5.jpg" />
+        <div class="pepdesc">
+          <div class="cost-of-star">19.00$</div>
+          <div class="starrating">
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+            <span class="fa fa-star"></span>
+          </div>
+          <div class="name">Name: Aarati Rai</div>
+
+          <div class="name">Age: 22</div>
+
+          <!-- <div class="name">Gender: Female</div> -->
+          <span class="name">Availability: 2 pm - 8 pm</span>
+          <div class="name">Profession: Yoga Instructor</div>
+          <div class="name">
+            Languages:
+            <span class="badge small-badge text-bg-primary">Nepali</span>
+            <span class="badge small-badge text-bg-secondary">English</span>
+          </div>
+          <div class="name">
+            Departure area:
+            <span class="badge small-badge text-bg-primary">Kathmandu</span>
+            <span class="badge small-badge text-bg-warning">Pokhara</span>
+            <span class="badge small-badge text-bg-info">Lumbini</span>
+          </div>
+          <div class="name">
+            Interest:
+            <span class="badge small-badge text-bg-primary">Yoga</span>
+            <span class="badge small-badge text-bg-warning">Meditation</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- profile 6 -->
+
+      <!-- profile 7 -->
+      <div
+        onclick="window.location.href='profile1.html'"
+        class="browsepep-info"
+      >
+        <img src="starimg/star2.jpg" />
+        <div class="pepdesc">
+          <div class="cost-of-star">12.99$</div>
+          <div class="starrating">
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+          </div>
+          <div class="name">Name: Rajesh Sharma</div>
+
+          <div class="name">Age: 27</div>
+
+          <!-- <div class="name">Gender: Male</div> -->
+          <span class="name">Availability: 10 am - 1 pm</span>
+          <div class="name">Profession: Engineer</div>
+          <div class="name">
+            Languages:
+            <span class="badge small-badge text-bg-primary">Nepali</span>
+            <span class="badge small-badge text-bg-secondary">English</span>
+            <span class="badge small-badge text-bg-info">Hindi</span>
+            <!-- <button type="button" class="btn btn-primary">Book Now</button> -->
+          </div>
+          <div class="name">
+            Departure area:
+            <span class="badge small-badge text-bg-primary">Kathmandu</span>
+            <span class="badge small-badge text-bg-warning">Pokhara</span>
+            <span class="badge small-badge text-bg-info">Chitwan</span>
+          </div>
+          <div class="name">
+            Interest:
+            <span class="badge small-badge text-bg-primary">Hiking</span>
+            <span class="badge small-badge text-bg-warning">Photography</span>
+            <!-- <span class="badge small-badge text-bg-info">Lalitpur</span> -->
+          </div>
+        </div>
+      </div>
+
+      <!-- profile 4 -->
+      <!-- Profile 8 -->
+      <div
+        onclick="window.location.href='profile2.html'"
+        class="browsepep-info"
+      >
+        <img src="starimg/star3.jpg" />
+        <div class="pepdesc">
+          <div class="cost-of-star">21.99$</div>
+          <div class="starrating">
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+            <span class="fa fa-star"></span>
+          </div>
+          <div class="name">Name: Maya Gurung</div>
+
+          <div class="name">Age: 28</div>
+
+          <!-- <div class="name">Gender: Female</div> -->
+          <span class="name">Availability: 9 am - 6 pm</span>
+          <div class="name">Profession: Trekking Guide</div>
+          <div class="name">
+            Languages:
+            <span class="badge small-badge text-bg-primary">Nepali</span>
+            <span class="badge small-badge text-bg-secondary">English</span>
+          </div>
+          <div class="name">
+            Departure area:
+            <span class="badge small-badge text-bg-primary">Kathmandu</span>
+            <span class="badge small-badge text-bg-warning">Pokhara</span>
+            <span class="badge small-badge text-bg-info">Chitwan</span>
+          </div>
+          <div class="name">
+            Interest:
+            <span class="badge small-badge text-bg-primary">Hiking</span>
+            <span class="badge small-badge text-bg-warning">Photography</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- nextpage options -->
+    <nav aria-label="Page navigation example" class="browse_pagination">
+      <ul class="pagination">
+        <li class="page-item">
+          <a class="page-link" href="#" id="prev">Previous</a>
+        </li>
+        <li class="page-item">
+          <a class="page-link" href="browsecompanions.html" id="page1">1</a>
+        </li>
+        <li class="page-item">
+          <a class="page-link" href="page2.html" id="page2">2</a>
+        </li>
+        <li class="page-item">
+          <a class="page-link" href="page3.html" id="page3">3</a>
+        </li>
+        <li class="page-item">
+          <a class="page-link" href="#" id="next">Next</a>
+        </li>
+      </ul>
+    </nav>
+
+    <!-- footer -->
+    <footer class="bottom">
+      <div class="footer-container">
+        <div class="footer-section">
+          <h3>Contact Us</h3>
+
+          <p>
+            <i class="fa-regular fa-envelope" style="color: #ffffff"></i> Email:
+            companionhirehub@gmail.com
+          </p>
+          <p>
+            <i class="fa-solid fa-phone" style="color: #ffffff"></i> Phone:
+            +(977) 9862748653
+          </p>
+        </div>
+
+        <div class="footer-section">
+          <h3>Quick Links</h3>
+          <ul class="ql">
+            <li>
+              <a href="index.html"> Home</a>
+            </li>
+            <li>
+              <a href="browsecompanions.html"> Browse Companions</a>
+            </li>
+            <li>
+              <a href="howitworks.html">How it works?</a>
+            </li>
+            <li>
+              <a href="contactus.html"> Contact Us</a>
+            </li>
+            <li>
+              <a href="joinus.html"> Join Us</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="footer-section">
+          <h3>Follow Us</h3>
+          <div class="social-icons">
+            <a href="#" target="_blank"
+              ><i class="fa-brands fa-facebook fa-2xl"></i
+            ></a>
+            <a href="#" target="_blank"
+              ><i class="fab fa-twitter fa-2xl"></i
+            ></a>
+            <a href="#" target="_blank"
+              ><i class="fab fa-instagram fa-2xl"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2024 Companion Hire Hub. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script src="main.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+    <!--Start of Tawk.to Script-->
+    <script type="text/javascript">
+      var Tawk_API = Tawk_API || {},
+        Tawk_LoadStart = new Date();
+      (function () {
+        var s1 = document.createElement("script"),
+          s0 = document.getElementsByTagName("script")[0];
+        s1.async = true;
+        s1.src = "https://embed.tawk.to/66364a8a9a809f19fb2d61dc/1ht216bon";
+        s1.charset = "UTF-8";
+        s1.setAttribute("crossorigin", "*");
+        s0.parentNode.insertBefore(s1, s0);
+      })();
+    </script>
+    <!--End of Tawk.to Script-->
+  </body>
+</html>
