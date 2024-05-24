@@ -1,33 +1,38 @@
-document.addEventListener("DOMContentLoaded", function () {
-
+document.addEventListener("DOMContentLoaded", function(){
   const drpdwnbtn = document.getElementById("user-login");
   const drpdwnmenu = document.getElementById("dropdown-content");
-  
+
   drpdwnbtn.addEventListener("click", function () {
-    console.log('button clicked');
-    if (drpdwnmenu.style.display === "none" || getComputedStyle(drpdwnmenu).display === "none") {
+    console.log("button clicked");
+    if (
+      drpdwnmenu.style.display === "none" ||
+      getComputedStyle(drpdwnmenu).display === "none"
+    ) {
       drpdwnmenu.style.display = "block";
     } else {
       drpdwnmenu.style.display = "none";
     }
   });
+  
 });
 
 // view for signup
-let show = document.querySelector("#show")
-let view = document.querySelector("#view")
-let confirmPassword = document.querySelector("#confirmPassword")
-let password = document.querySelector("#password")
-show.addEventListener("click", function(){
-this.classList.toggle("fa-eye");
-let type = confirmPassword.getAttribute("type") ==="password"?"text" : "password";
-confirmPassword.setAttribute("type",type);
-})
-view.addEventListener("click", function(){
+let show = document.querySelector("#show");
+let view = document.querySelector("#view");
+let confirmPassword = document.querySelector("#confirmPassword");
+let password = document.querySelector("#password");
+show.addEventListener("click", function () {
   this.classList.toggle("fa-eye");
-  let types = password.getAttribute("type") ==="password"?"text" : "password";
-  password.setAttribute("type",types);
-  })
+  let type =
+    confirmPassword.getAttribute("type") === "password" ? "text" : "password";
+  confirmPassword.setAttribute("type", type);
+});
+view.addEventListener("click", function () {
+  this.classList.toggle("fa-eye");
+  let types =
+    password.getAttribute("type") === "password" ? "text" : "password";
+  password.setAttribute("type", types);
+});
 
 // form validation for signup
 function validateForm() {
@@ -87,30 +92,13 @@ function validateForm() {
 }
 
 
-// swiper js
-document.addEventListener("DOMContentLoaded", function () {
-  var mySwiper = new Swiper(".swiper-container", {
-    slidesPerView: 1,
-    spaceBetween: 30,
-    loop: true,
-    autoplay: {
-      delay: 5000, // Set the delay in milliseconds (e.g., 5000 for 5 seconds): false,
-    },
-  });
-});
-
 // for dropdown for login signup
-  // const drpdwnbtn = document.getElementById("user-login");
-  // const drpdwnmenu = document.getElementById("dropdown-content");
-  // drpdwnbtn.addEventListener("click", () => {
-  //   if (drpdwnmenu.style.display === "none") {
-  //     drpdwnmenu.style.display = "block";
-  //   } else {
-  //     drpdwnmenu.style.display = "none";
-  //   }
-  // });
-
-
-
-
-
+// const drpdwnbtn = document.getElementById("user-login");
+// const drpdwnmenu = document.getElementById("dropdown-content");
+// drpdwnbtn.addEventListener("click", () => {
+//   if (drpdwnmenu.style.display === "none") {
+//     drpdwnmenu.style.display = "block";
+//   } else {
+//     drpdwnmenu.style.display = "none";
+//   }
+// });

@@ -16,7 +16,7 @@
       crossorigin="anonymous"
     />
     <link
-      rel="stylesheet"
+      rel="stylesheet" 
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"
     />
     <link
@@ -486,10 +486,7 @@
               </div>
               <br />
               <p>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi
-                adipisci cupiditate natus quia in tempora officiis. Vel
-                architecto error repellat ex vitae ullam excepturi consectetur
-                saepe delectus porro, maiores corporis.
+                Had a great time with Companion Hire Hub! It was easy to find the right companion on their website. The person I picked was really professional and made my event extra special. I’d recommend them to anyone looking for a smooth and friendly service.
               </p>
               <p>- Hari Lamichaane</p>
             </div>
@@ -508,16 +505,30 @@
               </div>
               <br />
               <p>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi
-                adipisci cupiditate natus quia in tempora officiis. Vel
-                architecto error repellat ex vitae ullam excepturi consectetur
-                saepe delectus porro, maiores corporis.
+                Working with Companion Hire Hub has been awesome! The website is easy to use, and I’ve met some great clients. The support team is really helpful too. If you’re a companion looking for a good platform to find clients, I definitely recommend Companion Hire Hub.
               </p>
               <p>- Laxman Pokharel</p>
             </div>
           </div>
           <!-- Slide 2 -->
-         
+          <div class="tswiper-slide swiper-slide">
+            <div class="testimonial">
+              <img src="starimg/timg2.png" alt="User 1" />
+              <p class="cname">Happy Client</p>
+              <div class="starrating">
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+              </div>
+              <br />
+              <p>
+                I loved using Companion Hire Hub! Finding a companion who matched what I needed was quick and easy. The whole experience was smooth, and the companion I chose was both professional and friendly. If you want a reliable and friendly companion, give Companion Hire Hub a try.
+              </p>
+              <p>- Ram Silwal</p>
+            </div>
+          </div>
           <!-- Add more slides as needed -->
         </div>
       </div>
@@ -584,6 +595,18 @@
     <script src="main.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script>
+      // swiper js
+document.addEventListener("DOMContentLoaded", function () {
+  var mySwiper = new Swiper(".swiper-container", {
+    slidesPerView: 1,
+    spaceBetween: 30,
+    loop: true,
+    autoplay: {
+      delay: 5000, // Set the delay in milliseconds (e.g., 5000 for 5 seconds): false,
+    },
+  });
+});
+
       var swiper = new Swiper(".mySwiper", {
         slidesPerView: 1,
         spaceBetween: 30,
@@ -612,6 +635,7 @@
   })();
   </script>
   <script>
+   
     const images = document.querySelectorAll(".banner img");
 const leftBtn = document.getElementById("leftBtn");
 const rightBtn = document.getElementById("rightBtn");
