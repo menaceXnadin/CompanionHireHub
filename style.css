@@ -826,11 +826,10 @@ a {
     background-color: #1c1d21;
   }
   .menu-btn {
-    display: none;
+    display: block;
     font-size: large;
-    position: absolute;
-    left: 120%;
-    top: 28%;
+    position: relative;
+    left: 13%;
   }
  
   .nav-logo-text {
