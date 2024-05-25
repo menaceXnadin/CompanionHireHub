@@ -88,35 +88,53 @@
           <button type="submit"><i class="fas fa-search"></i></button>
         </div>
         <div id="user-login">
-            <i class="fa-solid fa-circle-user" style="font-size:2.5em;"></i>
+          <i class="fa-solid fa-circle-user" style="font-size: 2.5em"></i>
           <div id="dropdown-content">
             <a href="login.html">
               <span class="material-symbols-outlined"> person </span>
-              Login</a>
+              Login</a
+            >
             <a href="signup.html"> Sign Up</a>
           </div>
         </div>
       </div>
-    <div class="second-row">
-      <a class="resnavhid" href="index.html">Home</a>
-      <a class="resnavhid" href="browsecompanions.html">Browse Companions</a>
-      <a class="resnavhid" href="howitworks.html">How it works?</a>
-      <a class="resnavhid" href="contactus.html">Contact Us</a>
-      <div
-        class="resnavhid join-now"
-        onclick="window.location.href='joinus.html'"
-      >
-        Join us
-        <i class="fa-solid fa-right-to-bracket" style="color: #ffffff"></i>
-      </div>
-      <div class="nav-menu-btn">
-        <div class="resnavlogo" onclick="window.location.href='index.html'">
-          <h3>Companion</h3>
-          <h4>Hire Hub</h4>
+      <div class="second-row">
+        <ul class="resnavhid">
+          <li class="nav-list">
+            <a  href="index.html">Home</a>
+          </li>
+          
+
+          <li class="nav-list">
+            <a  href="browsecompanions.html"
+              >Browse Companions</a
+            >
+          </li>
+          <li class="nav-list">
+            <a  href="howitworks.html">How it works?</a>
+          </li>
+          <li class="nav-list">
+            <a  href="contactus.html">Contact Us</a>
+          </li>
+         <li class="nav-list">
+            <div
+            class="resnavhid join-now"
+            onclick="window.location.href='joinus.html'"
+          >
+            Join us
+            <i class="fa-solid fa-right-to-bracket" style="color: #ffffff"></i>
+          </div>
+         </li>
+        </ul>
+       
+        <div class="nav-menu-btn">
+          <div class="resnavlogo" onclick="window.location.href='index.html'">
+            <h3>Companion</h3>
+            <h4>Hire Hub</h4>
+          </div>
+          <i class="fa-solid fa-bars menu-btn" style="color: #ffffff"></i>
         </div>
-        <i class="fa-solid fa-bars menu-btn" style="color: #ffffff"></i>
       </div>
-    </div>
     </nav>
 
     <div class="banner">
@@ -591,10 +609,13 @@
         <p>&copy; 2024 Companion Hire Hub. All rights reserved.</p>
       </div>
     </footer>
-
     <script src="main.js"></script>
+    <script src="activenavbar.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script>
+      //script.js
+
+
       // swiper js
 document.addEventListener("DOMContentLoaded", function () {
   var mySwiper = new Swiper(".swiper-container", {

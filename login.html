@@ -100,17 +100,34 @@
         </div>
       </div>
       <div class="second-row">
-        <a class="resnavhid" href="index.html">Home</a>
-        <a class="resnavhid" href="browsecompanions.html">Browse Companions</a>
-        <a class="resnavhid" href="howitworks.html">How it works?</a>
-        <a class="resnavhid" href="contactus.html">Contact Us</a>
-        <div
-          class="resnavhid join-now"
-          onclick="window.location.href='joinus.html'"
-        >
-          Join us
-          <i class="fa-solid fa-right-to-bracket" style="color: #ffffff"></i>
-        </div>
+        <ul class="resnavhid">
+          <li class="nav-list">
+            <a href="index.html">Home</a>
+          </li>
+
+          <li class="nav-list">
+            <a href="browsecompanions.html">Browse Companions</a>
+          </li>
+          <li class="nav-list">
+            <a href="howitworks.html">How it works?</a>
+          </li>
+          <li class="nav-list">
+            <a href="contactus.html">Contact Us</a>
+          </li>
+          <li class="nav-list">
+            <div
+              class="resnavhid join-now"
+              onclick="window.location.href='joinus.html'"
+            >
+              Join us
+              <i
+                class="fa-solid fa-right-to-bracket"
+                style="color: #ffffff"
+              ></i>
+            </div>
+          </li>
+        </ul>
+
         <div class="nav-menu-btn">
           <div class="resnavlogo" onclick="window.location.href='index.html'">
             <h3>Companion</h3>
@@ -147,15 +164,27 @@
               placeholder="Enter your password"
               id="passwordforlogin"
             />
-            <i class="fa-solid fa-eye-slash" id="view" style="cursor: pointer;"></i>
+            <i
+              class="fa-solid fa-eye-slash"
+              id="view"
+              style="cursor: pointer"
+            ></i>
           </div>
           <br />
-          <br />
+
           <button type="button" id="logbtn" onclick="validate()">Login</button>
         </form>
         <div class="forsign">
           <a href="signup.html"><span>Don't have an account?</span></a>
           <a href="nodata.html"><span>Forgot Password?</span></a>
+        </div>
+        <div class="separator">
+          <div class="line"></div>
+          <div class="or">Or</div>
+          <div class="line"></div>
+        </div>
+        
+        
         </div>
       </div>
     </div>
@@ -216,6 +245,8 @@
         <p>&copy; 2024 Companion Hire Hub. All rights reserved.</p>
       </div>
     </footer>
+    <script src="activenavbar.js"></script>
+
     <script>
       document.addEventListener("DOMContentLoaded", function () {
         const drpdwnbtn = document.getElementById("user-login");

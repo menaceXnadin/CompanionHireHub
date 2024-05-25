@@ -91,14 +91,3 @@ function validateForm() {
   // Return false if any validation failed
 }
 
-
-// for dropdown for login signup
-// const drpdwnbtn = document.getElementById("user-login");
-// const drpdwnmenu = document.getElementById("dropdown-content");
-// drpdwnbtn.addEventListener("click", () => {
-//   if (drpdwnmenu.style.display === "none") {
-//     drpdwnmenu.style.display = "block";
-//   } else {
-//     drpdwnmenu.style.display = "none";
-//   }
-// });
