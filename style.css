@@ -364,7 +364,7 @@ hr {
   height: 80%;
 }
 .fswiper-slide {
-  padding-left: 25px !important;
+  padding-left: 10px !important;
   width: -moz-fit-content !important;
   width: fit-content !important;
   display: flex;
@@ -384,10 +384,10 @@ hr {
 }
 
 .peopleinfo {
-  /* max-width:100%; */
-  min-width: 300px;
-  /* min-height: 100%; */
-  max-height: 100%;
+  max-width:255px;
+  min-width: 255px;
+  min-height:400px;
+  max-height: 400px;
   padding: 10px 12px;
   position: relative;
   font-size: 1em;
@@ -409,7 +409,7 @@ hr {
 
 .peopleinfo .starrating {
   position: absolute;
-  bottom: 48%;
+  bottom: 50%;
   left: 20px;
   z-index: 1;
 }
@@ -417,12 +417,13 @@ hr {
 .peopleinfo img {
   border-radius: 8px;
   width: 100%;
-  min-height: 250px;
-  max-height: 250px;
+  min-height: 200px;
+  max-height: 200px;
   object-fit: cover;
 }
 
 .pepdesc .name {
+  font-size: 85%;
   font-family: "outfit", sans-serif;
 }
 
@@ -627,9 +628,7 @@ a {
   display: none;
 }
 
-.p5 {
-  padding-left: 55px !important;
-}
+
 @media screen and (max-width: 767px) {
   .hiw-header {
     font-weight: 900;
@@ -640,6 +639,10 @@ a {
   .join-us-form {
     display: block !important;
     height: 125vh !important;
+  }
+  .form{
+    top: 0 !important;
+    height: 80vh !important;
   }
   .form-group {
     width: 90vw !important;
@@ -739,7 +742,7 @@ a {
   }
   .login-form {
     padding: 25px !important;
-    height: 80vh !important;
+    height: 100% !important;
     display: block;
     width: 100vw !important;
   }
@@ -773,17 +776,20 @@ a {
     color: #7439f1;
     font-family: "Paytone One", sans-serif;
   }
+  .p1{
+    padding-left: 11vw !important;
+  }
   .p2 {
-    padding-left: 40px !important;
+    padding-left: 22vw !important;
   }
   .p3 {
-    padding-left: 45px !important;
+    padding-left: 21vw !important;
   }
   .p4 {
-    padding-left: 35px !important;
+    padding-left: 20vw !important;
   }
   .p5 {
-    padding-left: 45px !important;
+    padding-left: 20vw !important;
   }
 
   .lrbutton button {
@@ -1395,6 +1401,7 @@ textarea {
 }
 /* people info in browse categories */
 .browsepep-info {
+  font-size: 115% !important;
   max-width: 300px;
   min-width: 300px;
   min-height: 500px;
@@ -1443,9 +1450,7 @@ textarea {
 #contactbg {
   background-image: url(contactusbg.jpg);
 }
-.pepdesc .name {
-  font-family: "outfit", sans-serif;
-}
+
 .browse_pagination {
   display: flex;
   justify-content: center;
