@@ -1,7 +1,8 @@
 document.addEventListener('DOMContentLoaded', () => {
   const activePage = window.location.pathname;
   document.querySelectorAll('.nav-list a').forEach((link) => {
-      if (link.href.includes(`${activePage}`)) {
+      const linkPath = new URL(link.href).pathname;
+      if (linkPath === activePage) {
           link.classList.add('active');
           console.log(`${activePage}`);
       }
