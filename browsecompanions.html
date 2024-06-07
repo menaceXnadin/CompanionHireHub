@@ -133,10 +133,33 @@
             <h3>Companion</h3>
             <h4>Hire Hub</h4>
           </div>
-          <i class="fa-solid fa-bars menu-btn" style="color: #ffffff"></i>
-        </div>
+        
+        <i onclick="showsidebar()" class="fa-solid fa-bars menu-btn" style="color: #ffffff; width: 10px;" id="bar"></i>
+        
       </div>
-    </nav>
+    </div>
+    <ul class="sidebar"> 
+      <li >
+        <a  href="index.html">Home</a>
+      </li>
+      
+
+      <li >
+        <a  href="browsecompanions.html"
+          >Browse Companions</a
+        >
+      </li>
+      <li >
+        <a  href="howitworks.html">How it works?</a>
+      </li>
+      <li>
+        <a  href="contactus.html">Contact Us</a>
+      </li>
+     <li>
+        <a href="joinus.html">Join us</a>
+     </li>
+    </ul>
+  </nav>
     <h1 id="browse-header">Browse Companions</h1>
     <hr style="border: 2px solid #7439f1; opacity: 1" />
 
@@ -453,7 +476,7 @@
         onclick="window.location.href='profile2.html'"
         class="browsepep-info"
       >
-        <img src="starimg/star3.jpg" />
+        <img src="starimg/noimage.png" />
         <div class="pepdesc">
           <div class="cost-of-star">21.99$</div>
           <div class="starrating">
@@ -592,5 +615,6 @@
       })();
     </script>
     <!--End of Tawk.to Script-->
+    <script src="sidebar.js"></script>
   </body>
 </html>
